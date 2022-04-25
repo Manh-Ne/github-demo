@@ -1,0 +1,22 @@
+*{
+    color: bisque;
+}
+li{
+    color: black;
+}
+li{
+    color: green !important;
+}
+:root {
+    --text-color: violet;
+}
+h1{
+    --my-color: green;
+    color: var(--my-color);
+}
+h2{
+    color: var(--text-color);
+}
+h3{
+    color: var(--text-color);
+}
